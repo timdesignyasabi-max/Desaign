@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portofolio Pribadi</title>
+    <style>
+        /* CSS in same file for easy copy-paste */
+        body { margin: 0; font-family: 'Inter', sans-serif; background-color: #f9f9f9; color: #333; }
+        header { padding: 2rem 5%; display: flex; justify-content: space-between; align-items: center; background: #fff; }
+        .logo { font-size: 1.5rem; font-weight: bold; text-decoration: none; color: #000; }
+        .hero { padding: 5rem 5%; text-align: center; }
+        .hero h1 { font-size: 3rem; margin-bottom: 1rem; }
+        .hero p { font-size: 1.2rem; color: #666; max-width: 600px; margin: 0 auto 2rem; }
+        .portfolio { padding: 2rem 5%; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .card { background: #fff; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        footer { text-align: center; padding: 2rem; background: #222; color: #fff; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portofolio Saya</a>
+        <nav>
+            <a href="#karya" style="margin-left: 20px; text-decoration: none; color: #333;">Karya</a>
+            <a href="#kontak" style="margin-left: 20px; text-decoration: none; color: #333;">Kontak</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Kehadiran Digital yang Menginspirasi</h1>
+        <p>Menampilkan karya terbaik dengan desain modern, elegan, dan profesional.</p>
+    </section>
+
+    <section id="karya" class="portfolio">
+        <div class="card">
+            <h3>Proyek Pertama</h3>
+            <p>Deskripsi singkat tentang proyek ini dan hasil yang dicapai.</p>
+        </div>
+        <div class="card">
+            <h3>Proyek Kedua</h3>
+            <p>Deskripsi singkat tentang proyek ini dan hasil yang dicapai.</p>
+        </div>
+        <div class="card">
+            <h3>Proyek Ketiga</h3>
+            <p>Deskripsi singkat tentang proyek ini dan hasil yang dicapai.</p>
+        </div>
+    </section>
+
+    <footer id="kontak">
+        <p>&copy; 2026 Portofolio Pribadi. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
